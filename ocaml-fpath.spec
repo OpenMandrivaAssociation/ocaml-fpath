@@ -1,8 +1,9 @@
 %undefine _debugsource_packages
 Name:		ocaml-fpath
 Version:	0.7.3
-Release:	2
+Release:	3
 Summary:	File system paths for OCaml
+Group:		Development/OCaml
 License:	ISC
 URL:		https://erratique.ch/software/fpath
 Source0:	fpath-0.7.3.tbz
@@ -18,6 +19,7 @@ File system paths for OCaml
 
 %package devel
 Summary:	Development files for %{name}
+Group:		Development/OCaml
 Requires:	%{name}%{?_isa} = %{EVRD}
 
 %description devel
