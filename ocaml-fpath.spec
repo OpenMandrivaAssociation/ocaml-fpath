@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 Name:		ocaml-fpath
 Version:	0.7.3
-Release:	1
+Release:	2
 Summary:	File system paths for OCaml
 License:	ISC
 URL:		https://erratique.ch/software/fpath
@@ -11,6 +11,7 @@ BuildRequires:	ocaml-compiler
 BuildRequires:	ocaml-findlib
 BuildRequires:	ocaml-ocamlbuild
 BuildRequires:	ocaml-topkg-devel
+BuildRequires:	ocaml-astring-devel
 
 %description
 File system paths for OCaml
